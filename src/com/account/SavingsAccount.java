@@ -25,6 +25,7 @@ public class SavingsAccount extends BankAccount implements IncomeTax, Interest{
     public void withdraw(double balance) {
         if (getBanance()+500>balance) {
             super.withdraw(balance);
+            System.out.println("BDT "+balance+" Has withdrow");
         } else {
             System.err.println("You Have not Enough Balance to widtdraw. \nYour Current Balance is "
                     +getBanance());

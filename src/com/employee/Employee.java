@@ -12,7 +12,7 @@ import com.human.Person;
  *
  * @author DELL
  */
-public abstract class Employee extends Person{
+public class Employee extends Person{
     
     private String employeeId;
 

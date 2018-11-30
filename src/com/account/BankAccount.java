@@ -31,10 +31,11 @@ public abstract class BankAccount {
 
     public void deposite(double banance) {
         this.banance+=banance;
-        System.out.println("Success Deposite "+banance+" BDT.");
+        System.out.println("Successfully Deposite "+banance+" BDT.");
     }
     public void withdraw(double balance){
             this.banance-=balance;
+            
     }
     
     public abstract void serviceCharge();
